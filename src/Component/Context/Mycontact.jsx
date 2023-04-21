@@ -2,7 +2,7 @@ import React from 'react'
 import {MdOutlineEmail} from 'react-icons/md'
 
 import {RiMessengerLine} from 'react-icons/ri'
-import {ImWhatsapp} from 'react-icons/im'
+import {ImWhatsapp} from 'react-icons/Im'
 import './contact.css'
 const Mycontact = () => {
   return (

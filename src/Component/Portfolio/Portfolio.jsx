@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import {HiBadgeCheck} from 'react-icons/hi'
 
 const Portfolio = () => {
   return (
