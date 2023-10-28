@@ -22,7 +22,7 @@ header{
    
    position: absolute;
    left: 0;
-   bottom: 3    rem;
+   bottom: 3rem;
 }
 
 .header-socials::after{

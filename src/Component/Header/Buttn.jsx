@@ -5,7 +5,7 @@ const Buttn = () => {
   return (
     <div className='cta'>
      <a href={cv} download className='btn'>Download CV</a>
-     <a href='#contact' className='btn btn-primary'>Call Me</a>
+     <a href='#contact' className='btn btn-primary '>Call Me</a>
 
    </div>
   )

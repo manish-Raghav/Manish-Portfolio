@@ -15,7 +15,7 @@ const Service = () => {
      <div className='portfolio_item-image'>
       <img src={im1} alt='im1' />
       </div>
-      <h3>this is Title</h3>
+      <h3>My_Movies</h3>
       <div className='portfolio_item-cta'>
       <a href='https://github.com/manish-Raghav'  className='btn' target='blank'>Github</a>
      <a href='' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -28,7 +28,7 @@ const Service = () => {
      <div className='portfolio_item-image'>
       <img src={im2} alt='im2' />
       </div>
-      <h3>this is Title</h3>
+      <h3>our_Tube</h3>
       <div className='portfolio_item-cta'>
       <a href='https://github.com/manish-Raghav'  className='btn' target='blank'>Github</a>
      <a href='' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -39,7 +39,7 @@ const Service = () => {
      <div className='portfolio_item-image'>
       <img src={im3} alt='im3' />
       </div>
-      <h3>this is Title</h3>
+      <h3>Timer</h3>
       <div className='portfolio_item-cta'>
       <a href='https://github.com/manish-Raghav'  className='btn' target='blank'>Github</a>
      <a href='' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -50,10 +50,10 @@ const Service = () => {
      <div className='portfolio_item-image'>
       <img src={im4} alt='im4' />
       </div>
-      <h3>this is Title</h3>
+      <h3>RoomSearch</h3>
       <div className='portfolio_item-cta'>
       <a href='https://github.com/manish-Raghav'  className='btn' target='blank'>Github</a>
-     <a href='' className='btn btn-primary' target='_blank'>Live Demo</a>
+     
       </div>
 
      </article>
@@ -62,10 +62,10 @@ const Service = () => {
      <div className='portfolio_item-image'>
       <img src={im4} alt='im4' />
       </div>
-      <h3>this is Title</h3>
+      <h3>Silent_Hours</h3>
       <div className='portfolio_item-cta'>
       <a href='https://github.com/manish-Raghav'  className='btn' target='blank'>Github</a>
-     <a href='' className='btn btn-primary' target='_blank'>Live Demo</a>
+     
       </div>
 
      </article>

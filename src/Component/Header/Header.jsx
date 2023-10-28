@@ -14,7 +14,7 @@ const Header = () => {
    <div className='container header_container'>  
    <h5>Hello I'm</h5>
    <h1>Manish Raghav</h1>
-   <h5 className='text-light'> Fullstack Developer </h5>
+   <h5 className='text-light'> Full stack Doveloper </h5>
     <Buttn />
     <Socials />
 
@@ -22,7 +22,7 @@ const Header = () => {
    <img src={myimg} alt='me'/>
    </div>
    
-   <a href='#contact' className='scroll_down'>Scroll Down</a>
+   <a href='#contact' className='scroll_down '>Scroll Down</a>
    
    </div>
 

@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import { useState } from 'react'
 
 
 import Header from './Component/Header/Header'
@@ -11,6 +11,7 @@ import Service from './Component/Services/Service'
 
 import Mynav from './Component/Nav/Mynav'
 import Mycontact from './Component/Context/Mycontact'
+import Educ from './Component/Education/Educ'
 
     
 
@@ -27,9 +28,11 @@ function App() {
      <Header />
      <Mynav />
      <About />
-     
+     <Educ />
      <Exp />
      <Service/>
+     
+   
      
      <Mycontact />
     </>
