@@ -5,8 +5,17 @@ header{
 }
 .header_container{
     text-align: center;
+    display: flex;
     height: 100%;
     position: relative;
+}
+
+.child{
+    position: absolute;
+    top:5rem;
+}
+.child h5{
+    color:rgb(109, 252, 109);
 }
 .cta{
     margin-top: 2.5rem;
@@ -14,7 +23,7 @@ header{
     gap: 1.2rem;
     justify-content: center;
 }
-.header-socials{
+/* .header-socials{
    display: flex; 
    flex-direction: column;
    align-items: center;
@@ -23,34 +32,29 @@ header{
    position: absolute;
    left: 0;
    bottom: 3rem;
-}
+} */
 
-.header-socials::after{
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-}
+
 .me{
     background:#e5b9e8;
-    width: 20rem;
-    height: 23rem;
+    width: 24rem;
+    height: 24rem;
     position: absolute;
-    left: 350px;
-    
+    left: 38rem;
     margin-top: 4rem;
+    box-shadow: 1px 1px 10px 10px #f2aef7;
     border-radius: 50rem 50rem 50rem 50rem;
     overflow: hidden;
    
 }   
-.scroll_down{
+/* .scroll_down{
     position: absolute;
     right: -3rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
-}
+} */
 /* .me img{
     width: 300px;
     margin-left: 200px;

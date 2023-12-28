@@ -7,7 +7,7 @@ import {SiCodechef} from 'react-icons/si'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' className='relative top-5'>
      <h5>Get To Know</h5>
      <h2>About Me</h2>
      <div className='container about_container'>
@@ -37,7 +37,7 @@ const About = () => {
         1624 rank</small>
    </article>
     </div>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate ipsam dolor vitae iste recusandae atque dicta eaque. Ea quas perferendis atque beatae unde quasi facere ad aperiam ipsum? Nam!</p>
+     <p>hey i am full Stack Doveloper   </p>
   
   <a href="#contact"  className='btn btn-primary' >Lert's Talk</a>
    

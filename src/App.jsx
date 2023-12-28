@@ -25,11 +25,13 @@ function App() {
 
   return (
     <>
+    <Mynav />
      <Header />
-     <Mynav />
+     
      <About />
-     <Educ />
      <Exp />
+     <Educ />
+    
      <Service/>
      
    

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Educ = () => {
   return (
-   <section className='w-screen relative bottom-10'>
+   <section className='w-screen relative bottom-60'>
      <div className='flex justify-center'>
      <h2 className='text-2xl relative bottom-8 font-serif  '>My Education</h2>  
      </div>
@@ -17,11 +17,11 @@ const Educ = () => {
           {/* <h5>2022</h5> */}
        </div>
        <div className='flex justify-between'>
-        <p className='text-white px-2' >2022--2023</p>
-         <p  className='text-white pr-2' >7.5 CGPA</p>
+        <p className='text-slate-400 px-2' >2022--2023</p>
+         <p  className='text-slate-400 pr-2' >7.5 CGPA</p>
        </div>
        <div className='flex justify-center'>
-        <p className='text-white'>Candigarh University </p>
+        <p className='text-slate-400'>Candigarh University </p>
        </div>
        <div>
        
@@ -55,15 +55,15 @@ const Educ = () => {
     <div className='w-64 my-36 bg-indigo-900 rounded-xl h-40 cursor-default hover:bg-[#1f1f38] '>
     <div className='p-3 flex flex-col items-center justify-center'>
          <h4 >BCA</h4>
-         <p className='text-slate-300 '>Computer Application </p>
+         <p className='text-slate-400 '>Computer Application </p>
           {/* <h5>2022</h5> */}
        </div>
        <div className='flex justify-between'>
-        <p className='text-white px-2' >2017--2020</p>
-         <p  className='text-white pr-2' >6.3 CGPA</p>
+        <p className='text-slate-400 px-2' >2017--2020</p>
+         <p  className='text-slate-400 pr-2' >6.3 CGPA</p>
        </div>
        <div className='flex justify-center'>
-        <p className='text-white'>Sanskriti University (Mathura) </p>
+        <p className='text-slate-400'>Sanskriti University (Mathura) </p>
        </div>
        <div>
        

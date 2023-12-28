@@ -15,8 +15,16 @@
     background: transparent;
 }
 .portfolio.item-image{
+    
     border-radius: 1.5rem;
+    background-size: cover;
     overflow: hidden;
+}
+
+.portfolio.item-image img{
+    width: 10px;
+    background-size: cover;
+    
 }
 .portfolio_item h3{
     margin: 1.2rem 0 2rem;
