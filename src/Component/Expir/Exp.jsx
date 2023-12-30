@@ -1,5 +1,15 @@
 import React from 'react'
 import {HiBadgeCheck} from 'react-icons/hi'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faJava } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
+import { faCss3 } from '@fortawesome/free-brands-svg-icons'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faNodeJs } from '@fortawesome/free-brands-svg-icons'
+
+import { faJs } from '@fortawesome/free-brands-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
+
 // import {FaNode} from 'react-icons/fa'
 // import {SiReact} from 'react-icons/si'
 
@@ -21,36 +31,50 @@ const Exp = () => {
         <div className='flex'> 
         {/* experience_content */}
        
+
+         
+        <article className='experience_details'>
+        <FontAwesomeIcon icon={faJava} />
+          <div>
+          <h4>Java</h4>
+          <small className='text-light'>Experienced</small>
+          </div>
+          </article>
+
+
+       
+             
+
           <article className='experience_details'>
-          <HiBadgeCheck />
+          <FontAwesomeIcon icon={faJava} className='text-white' />
           <div>
           <h4>HTML</h4>
           <small className='text-light'>Experienced</small>
           </div>
           </article>
           <article className='experience_details'>
-          <HiBadgeCheck />
+          <FontAwesomeIcon icon={faJava} />
           <div>
           <h4>CSS</h4>
           <small className='text-light'>Intermediates</small>
           </div>
           </article>
           <article className='experience_details'>
-          <HiBadgeCheck />
+          <FontAwesomeIcon icon={faJava} />
           <div>
           <h4>JavaScript</h4>
           <small className='text-light'>Intermediates</small>
           </div>
           </article>
           <article className='experience_details'>
-          <HiBadgeCheck />
+          <FontAwesomeIcon icon={faJava} />
           <div>
           <h4>React JS</h4>
           <small className='text-light'>experience</small>
           </div>
           </article>
           <article className='experience_details'>
-          <HiBadgeCheck />
+          <FontAwesomeIcon icon={faJava} />
           <div>
 
           
@@ -59,7 +83,7 @@ const Exp = () => {
           </div>
           </article>
           <article className='experience_details'>
-          <HiBadgeCheck />
+          <FontAwesomeIcon icon={faJava} />
           <div>
 
           
@@ -71,12 +95,22 @@ const Exp = () => {
         
 
           <article className='experience_details'>
-          <HiBadgeCheck />
+          <FontAwesomeIcon icon={faJava} />
           <div>
           <h4>AWS</h4>
           <small className='text-light'>Experienced</small>
           </div>
           </article>
+
+          <article className='experience_details'>
+          <HiBadgeCheck />
+          <div>
+          <h4>NoSQL</h4>
+          <small className='text-light'>Experienced</small>
+          </div>
+          </article>
+
+
           <article className='experience_details'>
           <HiBadgeCheck />
           <div>

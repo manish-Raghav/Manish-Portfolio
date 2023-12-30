@@ -4,17 +4,9 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faGit } from '@fortawesome/free-brands-svg-icons'
  import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import './nav.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faLinkedinIn } from '@fortawesome/free-solid-svg-icons'
-// import {AiOutlineHome} from 'react-icons/ai'
-// import {AiOutlineUser} from 'react-icons/ai'
-// import {BiBook} from 'react-icons/bi'
-// import {RiServiceLine} from 'react-icons/ri'
-// import {BiMessageSquareDetail} from 'react-icons/bi'
 
-import {BsLinkedin} from 'react-icons/bs'
-import {ImGithub} from 'react-icons/Im'
-import {FaInstagramSquare} from 'react-icons/Fa'
+
+
 
 const Mynav = () => {
   const [my ,myset] = useState('#');
