@@ -14,12 +14,10 @@ import './exp.css'
 
 const Exp = () => {
   return (
-    <section id='experience' className='flex flex-col items-center relative bottom-' >
+    <section id='experience' className='flex flex-col items-center relative top-6' >
      <h5> What Skills I have</h5>
      <h2>My Skills</h2>
-     <div className='container experience_container  flex flex-col justify-center'>
-      <div className='experienc_frontend'>
-       <h3>Web Development</h3>
+     
         <div className='flex'> 
         {/* experience_content */}
        
@@ -98,11 +96,7 @@ const Exp = () => {
           
 
 
-      </div>
-
-
-     </div>
-
+      
    
 
     </section>

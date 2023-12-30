@@ -1,10 +1,16 @@
 import React, {useState} from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGit } from '@fortawesome/free-brands-svg-icons'
+ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import './nav.css'
-import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
-import {BiBook} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
-import {BiMessageSquareDetail} from 'react-icons/bi'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faLinkedinIn } from '@fortawesome/free-solid-svg-icons'
+// import {AiOutlineHome} from 'react-icons/ai'
+// import {AiOutlineUser} from 'react-icons/ai'
+// import {BiBook} from 'react-icons/bi'
+// import {RiServiceLine} from 'react-icons/ri'
+// import {BiMessageSquareDetail} from 'react-icons/bi'
 
 import {BsLinkedin} from 'react-icons/bs'
 import {ImGithub} from 'react-icons/Im'
@@ -37,11 +43,11 @@ const Mynav = () => {
           <div class ="child3">
        
     
-    <a href='www.linkedin.com/in/manishraghav'  target='_blank'><BsLinkedin/></a>
+  <a href='www.linkedin.com/in/manishraghav'  target='_blank'> <FontAwesomeIcon icon={faLinkedinIn} /> </a>
    
  
- <a href='https://github.com/manish-Raghav?tab=repositories' target='_blank'> <ImGithub/></a>
- <a href='https://instagram.com' target='_blank'> <FaInstagramSquare /></a>
+ <a href='https://github.com/manish-Raghav?tab=repositories' target='_blank'> <FontAwesomeIcon icon={faGit } /></a>
+ <a href='https://instagram.com' target='_blank'><FontAwesomeIcon icon={faInstagram } /></a>
 
 </div>
      
