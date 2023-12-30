@@ -3,7 +3,7 @@
 } */
 
 .container.contact_container{
-    width:61%;
+    width:80%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -28,7 +28,7 @@
 }
 .contact_option-icon{
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-top:10px;
 
 }
 .contact_option a{

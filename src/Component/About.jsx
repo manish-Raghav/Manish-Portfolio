@@ -37,7 +37,13 @@ const About = () => {
         1624 rank</small>
    </article>
     </div>
-     <p>hey i am full Stack Doveloper   </p>
+     <p>I am a versatile full-stack developer specializing in building robust
+      and scalable applications using React.js for the frontend and Node.js for 
+      the backend. With a strong foundation in both client-side and server-side development,
+      I bring expertise in crafting seamless user interfaces and designing efficient,
+      high-performing APIs. My experience includes leveraging React.js to create engaging
+      and responsive UIs while harnessing the power of Node.js to architect and deploy 
+      server-side solutions.    </p>
   
   <a href="#contact"  className='btn btn-primary' >Lert's Talk</a>
    

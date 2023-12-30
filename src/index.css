@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;600;800&family=Cormorant+Infant:wght@300;400;500;600;700&family=Hind:wght@300;500;700&family=Inter&family=Montserrat:wght@400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,400&family=Roboto+Mono:wght@300;400;500&family=Roboto:wght@300;400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); */
+ 
 *{
   margin: 0;
   padding: 0;
