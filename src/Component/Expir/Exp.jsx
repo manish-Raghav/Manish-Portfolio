@@ -114,7 +114,7 @@ const Exp = () => {
         
 
           <article className='experience_details'>
-          <FontAwesomeIcon icon={faJava} />
+          <HiBadgeCheck />
           <div>
           <h4>AWS</h4>
           <small className='text-light'>Experienced</small>
