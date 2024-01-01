@@ -28,12 +28,12 @@ const Exp = () => {
      <h5> What Skills I have</h5>
      <h2>My Skills</h2>
      
-        <div className='flex'> 
+        <div class='ab'> 
         {/* experience_content */}
        
 
-         
-        <article className='experience_details'>
+          <div class ='cd1' >
+        <article className='experience_details '>
         <FontAwesomeIcon icon={faJava} />
           <div>
           <h4>Java</h4>
@@ -46,49 +46,68 @@ const Exp = () => {
              
 
           <article className='experience_details'>
-          <FontAwesomeIcon icon={faJava} className='text-white' />
+          <FontAwesomeIcon icon={faHtml5}  />
           <div>
           <h4>HTML</h4>
           <small className='text-light'>Experienced</small>
           </div>
           </article>
+
+
           <article className='experience_details'>
-          <FontAwesomeIcon icon={faJava} />
+          <FontAwesomeIcon icon={ faCss3 } />
           <div>
           <h4>CSS</h4>
           <small className='text-light'>Intermediates</small>
           </div>
           </article>
+
+
           <article className='experience_details'>
-          <FontAwesomeIcon icon={faJava} />
+          <FontAwesomeIcon icon={faJs} />
           <div>
           <h4>JavaScript</h4>
           <small className='text-light'>Intermediates</small>
           </div>
           </article>
+
+
+
           <article className='experience_details'>
-          <FontAwesomeIcon icon={faJava} />
+          <FontAwesomeIcon icon={faReact} />
           <div>
           <h4>React JS</h4>
-          <small className='text-light'>experience</small>
+          <small className='text-light'>Experience</small>
           </div>
           </article>
+
+          </div>
+
+
+          <div   class ='cd2' > 
+
           <article className='experience_details'>
-          <FontAwesomeIcon icon={faJava} />
+          <FontAwesomeIcon icon={faNodeJs } />
           <div>
 
           
           <h4>Node JS</h4>
-          <small className='text-light'>experience</small>
+          <small className='text-light'>Experience</small>
           </div>
+
+
+
           </article>
+
+
+
           <article className='experience_details'>
-          <FontAwesomeIcon icon={faJava} />
+          <FontAwesomeIcon icon={faCode } />
           <div>
 
           
           <h4>SQL</h4>
-          <small className='text-light'>experience</small>
+          <small className='text-light'>Experience</small>
           </div>
           </article>
 
@@ -120,6 +139,7 @@ const Exp = () => {
           </article>
         
 
+          </div>
 
         </div>
 
