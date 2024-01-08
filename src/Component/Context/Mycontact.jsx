@@ -17,21 +17,25 @@ import React from 'react'
  <div className='container contact_container'>
   <div className='contact_options'>
   <article className='contact_option'>
-  <MdOutlineEmail className='contact_option-icon'/>
+
+  <FontAwesomeIcon icon={faEnvelope} className='text-[1.5rem] mt-1 text-green-600' />
+  {/* <MdOutlineEmail className='contact_option-icon'/> */}
    <h4> Email </h4>
    <h5>manishraghav95964@gmail.com</h5>
    <a href='mailto:dummyegaore@gmail.com' target='_blank'> Send a Mail</a>
  
   </article>
   <article className='contact_option'>
-  <RiMessengerLine   className='contact_option-icon'/>
+  <FontAwesomeIcon icon={faMessage} className='text-[1.5rem] mt-1 text-green-600' />
+  {/* <RiMessengerLine   className='contact_option-icon'/> */}
    <h4> Messenger</h4>
    <h5>Manish Thakur</h5>
    <a href=''   target='_blank'> Send a Massage</a>
  
   </article>
   <article className='contact_option'>
-  <ImWhatsapp className='contact_option-icon'/>
+  <FontAwesomeIcon icon={faWhatsapp}  className='text-[1.5rem] mt-1 text-green-600 '/>
+  {/* <ImWhatsapp className='contact_option-icon'/> */}
    <h4>  WhatsApp </h4>
    <h5>7037808991</h5>
    <a href='https://api.whatsapp.com/send?phone+917037808991'  target='_blank'> Send a Massage</a>
