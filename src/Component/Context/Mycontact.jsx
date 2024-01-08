@@ -3,10 +3,10 @@ import React from 'react'
  import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
  import { faEnvelope, faMessage } from '@fortawesome/free-regular-svg-icons'
 
- import {MdOutlineEmail} from 'react-icons/md'
+//  import {MdOutlineEmail} from 'react-icons/md'
  
- import {RiMessengerLine} from 'react-icons/ri'
- import {ImWhatsapp} from 'react-icons/Im'
+//  import {RiMessengerLine} from 'react-icons/ri'
+//  import {ImWhatsapp} from 'react-icons/Im'
  import './contact.css'
  const Mycontact = () => {
    return (
