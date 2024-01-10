@@ -7,7 +7,7 @@ import './service.css'
 
 const Service = () => {
   return (
-    <section id='portfolio' className='relative bottom-72' >
+    <section id='portfolio' className='relative bottom-20' >
      <h5>My Recent work</h5>
      <h2>Projects</h2>
      <div className='container portfolio_container'>

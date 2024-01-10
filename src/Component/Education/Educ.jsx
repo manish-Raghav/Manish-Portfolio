@@ -4,7 +4,7 @@ import React from 'react'
 
 const Educ = () => {
   return (
-   <section className='w-screen relative bottom-10'>
+   <section className='w-screen relative bottom-5'>
      <div className='flex justify-center  relative  bottom-12'>
      <h2 className='text-xl font-[500] text-[#4db5ff] '>My Education</h2>  
      </div>

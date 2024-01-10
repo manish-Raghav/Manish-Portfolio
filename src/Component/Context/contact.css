@@ -1,6 +1,6 @@
-/* .sec{
-    margin-top: 300px;  
-} */
+.sec{
+    margin-top: 20rem;  
+}
 
 .container.contact_container{
     width:80%;
@@ -49,4 +49,5 @@ input,textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: white;
+    
 }
